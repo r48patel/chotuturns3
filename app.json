@@ -1,0 +1,6 @@
+{
+  "name": "Chotu's 3rd Birthday Party!",
+  "description": "All the pictures of the party!",
+  "repository": "https://github.com/bazaarvoice/chotuturns3",
+  "keywords": ["node", "express", "static"],
+}

@@ -1,0 +1,14 @@
+<% include ../partials/header.ejs %>
+				<!-- Main -->
+					<div id="main">
+
+						<% gallery_info.forEach(img => { %>
+							<article class="thumb">
+								<a href="images/<%= img %>" class="image">
+									<img src="images/<%= img %>" alt="" />
+								</a>
+								<h2></h2>
+							</article>
+						<% }) %>
+					</div>
+<% include ../partials/footer.ejs %>
